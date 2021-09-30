@@ -1,0 +1,1 @@
+﻿C:\GitHub\source\VS2019(c++)ac2021\ArxProject1\ArxProject1\Autodesk.arx-2021.props(34,3): error MSB4019: импортированный проект "C:\GitHub\source\ArxLib\ObjectARX_for_AutoCAD_2021_Win_64bit_dlm\inc\arx.props" не обнаружен. Проверьте правильность пути в объявлении <Import> и убедитесь в наличии файла на диске.

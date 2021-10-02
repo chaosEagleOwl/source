@@ -1,0 +1,9 @@
+﻿  StdAfx.cpp
+  DocData.cpp
+  ArxProject1.cpp
+  acrxEntryPoint.cpp
+  Generating Code...
+     Creating library x64\Debug\ArxProject1.lib and object x64\Debug\ArxProject1.exp
+rxapi.lib(libinit.obj) : warning LNK4099: PDB 'rxapi.pdb' was not found with 'rxapi.lib(libinit.obj)' or at 'C:\GitHub\source\VS2015(c++)ac2018\ArxProject1\x64\Debug\rxapi.pdb'; linking object as if no debug info
+  ArxProject1.vcxproj -> C:\GitHub\source\VS2015(c++)ac2018\ArxProject1\x64\Debug\ArxProject1.arx
+  ArxProject1.vcxproj -> C:\GitHub\source\VS2015(c++)ac2018\ArxProject1\x64\Debug\ArxProject1.pdb (Full PDB)

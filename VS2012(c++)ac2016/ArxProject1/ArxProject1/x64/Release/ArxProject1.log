@@ -1,0 +1,24 @@
+﻿Построение начато 02.10.2021 10:33:24.
+     1>Проект "C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\ArxProject1\ArxProject1.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"..\..\..\inc-x64" /I"..\..\..\..\inc-x64" /I"..\..\..\..\..\inc-x64" /AI"C:\ObjectARX 2015\\inc-x64" /AI"..\..\..\inc-x64" /AI"..\..\..\..\inc-x64" /AI"..\..\..\..\..\inc-x64" /AI..\..\..\inc /AI..\..\..\..\inc /AI..\..\..\..\..\inc /Zi /nologo /W0 /WX- /Od /Ob1 /Oy- /D _AFXEXT /D _WIN64 /D _ACRXAPP /D _NDEBUG=1 /D NDEBUG=1 /D _WIN32_IE=0x0600 /D WIN /D WIN32 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT=1 /D _AFXDLL /D _UNICODE /D UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy- /fp:precise /fp:except- /Zc:wchar_t /Zc:forScope /GR /Yc"stdafx.h" /Fp"x64\Release\ArxProject1.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /FR"x64\Release\\" /Gd /TP /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"..\..\..\inc-x64" /I"..\..\..\..\inc-x64" /I"..\..\..\..\..\inc-x64" /AI"C:\ObjectARX 2015\\inc-x64" /AI"..\..\..\inc-x64" /AI"..\..\..\..\inc-x64" /AI"..\..\..\..\..\inc-x64" /AI..\..\..\inc /AI..\..\..\..\inc /AI..\..\..\..\..\inc /Zi /nologo /W0 /WX- /Od /Ob1 /Oy- /D _AFXEXT /D _WIN64 /D _ACRXAPP /D _NDEBUG=1 /D NDEBUG=1 /D _WIN32_IE=0x0600 /D WIN /D WIN32 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT=1 /D _AFXDLL /D _UNICODE /D UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /GF /Gm- /EHsc /MD /GS /Gy- /fp:precise /fp:except- /Zc:wchar_t /Zc:forScope /GR /Yu"stdafx.h" /Fp"x64\Release\ArxProject1.pch" /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /FR"x64\Release\\" /Gd /TP /errorReport:prompt acrxEntryPoint.cpp ArxProject1.cpp DocData.cpp
+         acrxEntryPoint.cpp
+         ArxProject1.cpp
+         DocData.cpp
+         Создание кода...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /Ix64\Release\ /nologo /fo"x64\Release\ArxProject1.res" ArxProject1.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\x64\Release\ArxProject1.arx" /INCREMENTAL:NO /NOLOGO /LIBPATH:"..\..\..\lib-x64" /LIBPATH:"..\..\..\..\lib-x64" /LIBPATH:"..\..\..\..\..\lib-x64" /LTCG:NOSTATUS /ALLOWBIND "C:\Работа\AcProject\VC2012\ArxProject1\DbxObj\x64\Release\DbxObj.lib" accore.lib acad.lib acui20.lib adui20.lib ac1st20.lib acdb20.lib acge20.lib acgiapi.lib acISMobj20.lib rxapi.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /PDB:"C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\x64\Release\ArxProject1.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /TLBID:1 /DYNAMICBASE:NO /FIXED:NO /NXCOMPAT:NO /IMPLIB:"x64\Release\ArxProject1.lib" /MACHINE:X64 /CLRTHREADATTRIBUTE:NONE /DELAYSIGN:NO /CLRUNMANAGEDCODECHECK:NO /DLL x64\Release\ArxProject1.res
+         x64\Release\acrxEntryPoint.obj
+         x64\Release\ArxProject1.obj
+         x64\Release\DocData.obj
+         x64\Release\StdAfx.obj
+     1>LINK : fatal error LNK1181: не удается открыть входной файл "C:\Работа\AcProject\VC2012\ArxProject1\DbxObj\x64\Release\DbxObj.lib"
+     1>Построение проекта "C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\ArxProject1\ArxProject1.vcxproj" завершено (целевые объекты Build) с ошибкой.
+
+Сбой построения.
+
+Затраченное время: 00:00:10.61

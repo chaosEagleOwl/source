@@ -1,1 +1,4 @@
-﻿C:\GitHub\source\VS2019(c++)ac2021\ArxProject1\ArxProject1\Autodesk.arx-2021.props(34,3): error MSB4019: импортированный проект "C:\GitHub\source\ArxLib\ObjectARX_for_AutoCAD_2021_Win_64bit_dlm\inc\arx.props" не обнаружен. Проверьте правильность пути в объявлении <Import> и убедитесь в наличии файла на диске.
+﻿  acrxEntryPoint.cpp
+     Создается библиотека x64\Debug\ArxProject1.lib и объект x64\Debug\ArxProject1.exp
+rxapi.lib(libinit.obj) : warning LNK4099: "rxapi.pdb" PDB не найден с "rxapi.lib(libinit.obj)" или на "C:\GitHub\source\VS2019(c++)ac2021\ArxProject1\x64\Debug\rxapi.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+  ArxProject1.vcxproj -> C:\GitHub\source\VS2019(c++)ac2021\ArxProject1\x64\Debug\ArxProject1.arx

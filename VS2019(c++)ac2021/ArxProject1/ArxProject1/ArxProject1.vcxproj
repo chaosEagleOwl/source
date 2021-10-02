@@ -54,7 +54,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LibraryPath>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\lib\amd64;C:\Autodesk\ObjectARX_for_AutoCAD_2021_Win_64bit_dlm\lib-x64;C:\ArxLib\ObjectARX_for_AutoCAD_2021_Win_64bit_dlm\lib-x64;$(LibraryPath)</LibraryPath>
-    <IncludePath>C:\ArxLib\ObjectARX_for_AutoCAD_2021_Win_64bit_dlm\inc-x64;C:\ArxLib\ObjectARX_for_AutoCAD_2021_Win_64bit_dlm\inc;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\ArxLib\ObjectARX_for_AutoCAD_2021_Win_64bit_dlm\lib-x64</IncludePath>
+    <IncludePath>C:\ArxLib\ObjectARX_for_AutoCAD_2021_Win_64bit_dlm\inc-x64;C:\ArxLib\ObjectARX_for_AutoCAD_2021_Win_64bit_dlm\inc;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include;C:\GitHub\source\Common;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
@@ -76,7 +76,7 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="acrxEntryPoint.cpp" />
+    <ClCompile Include="..\..\..\Common\acrxEntryPoint.cpp" />
     <ClCompile Include="ArxProject1.cpp" />
     <ClCompile Include="DocData.cpp" />
     <ClCompile Include="StdAfx.cpp">
@@ -85,8 +85,8 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\Common\resource.h" />
     <ClInclude Include="DocData.h" />
-    <ClInclude Include="Resource.h" />
     <ClInclude Include="StdAfx.h" />
   </ItemGroup>
   <ItemGroup>

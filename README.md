@@ -20,9 +20,13 @@ C:\GitHub\source\README.md
 C:\GitHub\source\ArxLib\ - библиотеки SKD для Autocad на с++ (objectarx)
 C:\GitHub\source\Common\ - папка для основного исходного кода, которые разарбатывается совместно. 
                           Эта папка является общей для всех версий Visual Studio (поддерживаемых)
+
 C:\GitHub\source\VS2012(c++)ac2016\ - папка с проектом для Visual Studio 2012 и Acad 2016
+
 C:\GitHub\source\VS2015(c++)ac2018\ - папка с проектом для Visual Studio 2015 и Acad 2018
+
 C:\GitHub\source\VS2017(c++)ac2020\ - папка с проектом для Visual Studio 2017 и Acad 2020
+
 C:\GitHub\source\VS2019(c++)ac2021\ - папка с проектом для Visual Studio 2021 и Acad 2021
 
 

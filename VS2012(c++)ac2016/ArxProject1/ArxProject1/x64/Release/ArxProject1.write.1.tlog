@@ -1,5 +1,3 @@
-^MyAsm.asm
-C:\Работа\AcProject\VC2012\ArxProject1\ArxProject1\x64\Release\MyAsm.obj
-^C:\Работа\AcProject\VC2012\ArxProject1\ArxProject1\ArxProject1.vcxproj
-C:\Работа\AcProject\VC2012\ArxProject1\ArxProject1\x64\Release\ArxProject1.lib
-C:\Работа\AcProject\VC2012\ArxProject1\ArxProject1\x64\Release\ArxProject1.exp
+^C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\ArxProject1\ArxProject1.vcxproj
+C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\ArxProject1\x64\Release\ArxProject1.lib
+C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\ArxProject1\x64\Release\ArxProject1.exp

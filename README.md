@@ -2,13 +2,35 @@
 Расчетный модуль по расчету несущих конструкций зданий и сооружений с открытым исходным кодом
 
 Для работы с проектом нужна среда разработки Visual Studio и установленный Autocad.
-До начала работы с проектом Вам следует определиться в какой версии Autocad вы будете работать и установить для этого соотвествующую версию Visaul Studio.
+До начала работы с проектом Вам следует определиться в какой версии Autocad вы будете работать и установить для этого соотвествующую версию Visaul Studio и библиотеки Objectarx.
 
-Соответствие между версиями Visual Studio и Autocad прведено в файле
-\ArxLib\Версии Visual Studio.rtf
+Ссылки на библиотеки ObjectArx приведены здесь:
+https://adn-cis.org/forum/index.php?topic=61.0
 
 
-Проект предполагает возмодность работы с различными версиями Visual Studio, поэтому для каждой версии Visual Studio создан свой каталог
+Соответствие между версиями Visual Studio и Autocad приведено в файле, который находится в корне репозитория рядом с файлом README.md 
+\Версии Visual Studio.rtf
+
+Проект предполагает возможность работы с различными версиями Visual Studio, поэтому для каждой версии Visual Studio создан свой каталог.
+
+Пути к библиотекам в проектах на Visual Studio прописываются следубщим образом.
+Расположение библиотек ObjectArx после скачивания и распаковки предполагается на диске C:
+
+для Visual Studio 2012 и Acad 2016
+C:\ArxLib\Autodesk_ObjectARX_2016_Win_64_and_32_Bit\
+
+для Visual Studio 2015 и Acad 2018
+C:\ArxLib\Autodesk_ObjectARX_2018_Win_64_and_32_Bit\
+
+для Visual Studio 2017 и Acad 2020
+C:\ArxLib\Autodesk_ObjectARX_2020_Win_64_and_32_Bit\
+
+для Visual Studio 2018 и Acad 2019
+C:\ArxLib\ObjectARX_for_AutoCAD_2020_Win_64_bit\
+
+для Visual Studio 2021 и Acad 2021
+C:\ArxLib\ObjectARX_for_AutoCAD_2021_Win_64bit_dlm\
+
 
 Для исключения конфликта путей расположение репозитория GitHub предполагается на диске C:\
 
@@ -17,7 +39,6 @@ C:\GitHub\source\README.md
 
 Имеются папки:
 
-C:\GitHub\source\ArxLib\ - библиотеки SKD для Autocad на с++ (objectarx)
 C:\GitHub\source\Common\ - папка для основного исходного кода, которые разарбатывается совместно. 
                           Эта папка является общей для всех версий Visual Studio (поддерживаемых)
 

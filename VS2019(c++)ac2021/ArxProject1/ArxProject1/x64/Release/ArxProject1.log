@@ -1,0 +1,9 @@
+﻿  StdAfx.cpp
+  acrxEntryPoint.cpp
+  ArxProject1.cpp
+  DocData.cpp
+     Создается библиотека x64\Release\ArxProject1.lib и объект x64\Release\ArxProject1.exp
+  Создание кода
+  Создание кода завершено
+rxapi.lib(libinit.obj) : warning LNK4099: "rxapi.pdb" PDB не найден с "rxapi.lib(libinit.obj)" или на "C:\GitHub\source\VS2019(c++)ac2021\ArxProject1\x64\Release\rxapi.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
+  ArxProject1.vcxproj -> C:\GitHub\source\VS2019(c++)ac2021\ArxProject1\x64\Release\ArxProject1.arx

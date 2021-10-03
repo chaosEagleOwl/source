@@ -1,9 +1,26 @@
-﻿Построение начато 02.10.2021 14:43:51.
-     1>Проект "C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\ArxProject1\ArxProject1.vcxproj" в узле 2 (целевые объекты Build).
-     1>Link:
+﻿Построение начато 03.10.2021 9:45:22.
+     1>Проект "C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\ArxProject1\ArxProject1.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"..\..\..\inc-x64" /I"..\..\..\..\inc-x64" /I"..\..\..\..\..\inc-x64" /AI"C:\ObjectARX 2015\\inc-x64" /AI"..\..\..\inc-x64" /AI"..\..\..\..\inc-x64" /AI"..\..\..\..\..\inc-x64" /AI..\..\..\inc /AI..\..\..\..\inc /AI..\..\..\..\..\inc /Zi /nologo /W0 /WX- /Od /Oy- /D _AFXEXT /D _WIN64 /D _ACRXAPP /D _WIN32_IE=0x0600 /D WIN /D WIN32 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT=1 /D _AFXDLL /D _UNICODE /D UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /GF- /Gm /EHsc /MD /GS /Gy- /fp:precise /fp:except- /Zc:wchar_t /Zc:forScope /GR /openmp- /Yc"stdafx.h" /Fp"x64\Debug\ArxProject1.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt StdAfx.cpp
+         StdAfx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /I"..\..\..\inc-x64" /I"..\..\..\..\inc-x64" /I"..\..\..\..\..\inc-x64" /AI"C:\ObjectARX 2015\\inc-x64" /AI"..\..\..\inc-x64" /AI"..\..\..\..\inc-x64" /AI"..\..\..\..\..\inc-x64" /AI..\..\..\inc /AI..\..\..\..\inc /AI..\..\..\..\..\inc /Zi /nologo /W0 /WX- /Od /Oy- /D _AFXEXT /D _WIN64 /D _ACRXAPP /D _WIN32_IE=0x0600 /D WIN /D WIN32 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES=1 /D _CRT_SECURE_CPP_OVERLOAD_STANDARD_NAMES_COUNT=1 /D _AFXDLL /D _UNICODE /D UNICODE /D _WINDLL /D _UNICODE /D UNICODE /D _AFXDLL /GF- /Gm /EHsc /MD /GS /Gy- /fp:precise /fp:except- /Zc:wchar_t /Zc:forScope /GR /openmp- /Yu"stdafx.h" /Fp"x64\Debug\ArxProject1.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt ..\..\..\Common\acrxEntryPoint.cpp ArxProject1.cpp DocData.cpp
+         DocData.cpp
+         ArxProject1.cpp
+         acrxEntryPoint.cpp
+         Создание кода...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D _UNICODE /D UNICODE /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0419" /Ix64\Debug\ /nologo /fo"x64\Debug\ArxProject1.res" ArxProject1.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\x64\Debug\ArxProject1.arx" /INCREMENTAL:NO /NOLOGO /LIBPATH:"..\..\..\lib-x64" /LIBPATH:"..\..\..\..\lib-x64" /LIBPATH:"..\..\..\..\..\lib-x64" /ALLOWBIND accore.lib acad.lib acui20.lib adui20.lib ac1st20.lib acdb20.lib acge20.lib acgiapi.lib acISMobj20.lib rxapi.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\x64\Debug\ArxProject1.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /OPT:NOREF /OPT:NOICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"x64\Debug\ArxProject1.lib" /MACHINE:X64 /CLRTHREADATTRIBUTE:NONE /DELAYSIGN:NO /CLRUNMANAGEDCODECHECK:NO /DLL x64\Debug\ArxProject1.res
+         x64\Debug\acrxEntryPoint.obj
+         x64\Debug\ArxProject1.obj
+         x64\Debug\DocData.obj
+         x64\Debug\StdAfx.obj
+            Создается библиотека x64\Debug\ArxProject1.lib и объект x64\Debug\ArxProject1.exp
+     1>rxapi.lib(libinit.obj) : warning LNK4099: "rxapi_cl.pdb" PDB не найден с "rxapi.lib(libinit.obj)" или на "C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\x64\Debug\rxapi_cl.pdb"; компоновка объекта выполняется как при отсутствии отладочных данных
          ArxProject1.vcxproj -> C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\x64\Debug\ArxProject1.arx
-     1>Построение проекта "C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\ArxProject1\ArxProject1.vcxproj" завершено (целевые объекты Build).
+     1>Построение проекта "C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\ArxProject1\ArxProject1.vcxproj" завершено (целевые объекты Rebuild).
 
 Построение успешно завершено.
 
-Затраченное время: 00:00:00.08
+Затраченное время: 00:00:09.53

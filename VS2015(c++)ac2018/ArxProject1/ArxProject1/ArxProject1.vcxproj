@@ -62,14 +62,14 @@
   </PropertyGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LibraryPath>C:\GitHub\source\ArxLib\Autodesk_ObjectARX_2018_Win_64_and_32_Bit\lib-x64;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\ArxLib\Autodesk_ObjectARX_2018_Win_64_and_32_Bit\lib-x64;$(LibraryPath)</LibraryPath>
     <LinkDelaySign>false</LinkDelaySign>
-    <IncludePath>C:\GitHub\source\ArxLib\Autodesk_ObjectARX_2018_Win_64_and_32_Bit\inc;C:\GitHub\source\ArxLib\Autodesk_ObjectARX_2018_Win_64_and_32_Bit\inc-x64;C:\GitHub\source\Common;$(IncludePath)</IncludePath>
+    <IncludePath>C:\ArxLib\Autodesk_ObjectARX_2018_Win_64_and_32_Bit\inc;C:\ArxLib\Autodesk_ObjectARX_2018_Win_64_and_32_Bit\inc-x64;C:\GitHub\source\Common;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LibraryPath>C:\GitHub\source\ArxLib\Autodesk_ObjectARX_2018_Win_64_and_32_Bit\lib-x64;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\ArxLib\Autodesk_ObjectARX_2018_Win_64_and_32_Bit\lib-x64;$(LibraryPath)</LibraryPath>
     <LinkDelaySign>false</LinkDelaySign>
-    <IncludePath>C:\GitHub\source\ArxLib\Autodesk_ObjectARX_2018_Win_64_and_32_Bit\inc;C:\GitHub\source\ArxLib\Autodesk_ObjectARX_2018_Win_64_and_32_Bit\inc-x64;C:\GitHub\source\Common;$(IncludePath)</IncludePath>
+    <IncludePath>C:\ArxLib\Autodesk_ObjectARX_2018_Win_64_and_32_Bit\inc;C:\ArxLib\Autodesk_ObjectARX_2018_Win_64_and_32_Bit\inc-x64;C:\GitHub\source\Common;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>

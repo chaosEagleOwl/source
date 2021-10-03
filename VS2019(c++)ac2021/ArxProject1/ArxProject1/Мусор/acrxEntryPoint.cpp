@@ -131,13 +131,6 @@ public:
 
 		return (RTNORM) ;
 	}
-	static void MyGroupMyHello(void)
-	{
-		// Add your code for command ArxProject1._AddProf here
-		AfxMessageBox(L"Hello World");
-	}
-
-
 	
 } ;
 
@@ -148,7 +141,4 @@ ACED_ARXCOMMAND_ENTRY_AUTO(CArxProject1App, MyGroup, MyCommand, MyCommandLocal, 
 ACED_ARXCOMMAND_ENTRY_AUTO(CArxProject1App, MyGroup, MyPickFirst, MyPickFirstLocal, ACRX_CMD_MODAL | ACRX_CMD_USEPICKSET, NULL)
 ACED_ARXCOMMAND_ENTRY_AUTO(CArxProject1App, MyGroup, MySessionCmd, MySessionCmdLocal, ACRX_CMD_MODAL | ACRX_CMD_SESSION, NULL)
 ACED_ADSSYMBOL_ENTRY_AUTO(CArxProject1App, MyLispFunction, false)
-ACED_ARXCOMMAND_ENTRY_AUTO(CArxProject1App, MyGroup, MyHello, MyHelloLocal, ACRX_CMD_MODAL | ACRX_CMD_USEPICKSET, NULL)
-
-
 

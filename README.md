@@ -23,12 +23,9 @@ C:\ArxLib\Autodesk_ObjectARX_2016_Win_64_and_32_Bit\
 C:\ArxLib\Autodesk_ObjectARX_2018_Win_64_and_32_Bit\
 
 для Visual Studio 2017 и Acad 2020
-C:\ArxLib\Autodesk_ObjectARX_2020_Win_64_and_32_Bit\
-
-для Visual Studio 2018 и Acad 2019
 C:\ArxLib\ObjectARX_for_AutoCAD_2020_Win_64_bit\
 
-для Visual Studio 2021 и Acad 2021
+для Visual Studio 2019 и Acad 2021
 C:\ArxLib\ObjectARX_for_AutoCAD_2021_Win_64bit_dlm\
 
 
@@ -48,7 +45,7 @@ C:\GitHub\source\VS2015(c++)ac2018\ - папка с проектом для Visu
 
 C:\GitHub\source\VS2017(c++)ac2020\ - папка с проектом для Visual Studio 2017 и Acad 2020
 
-C:\GitHub\source\VS2019(c++)ac2021\ - папка с проектом для Visual Studio 2021 и Acad 2021
+C:\GitHub\source\VS2019(c++)ac2021\ - папка с проектом для Visual Studio 2019 и Acad 2021
 
 
 Для тестирования пока реализована только команда (из командной строки) -

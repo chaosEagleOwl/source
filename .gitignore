@@ -3,7 +3,7 @@
 *.ipch
 *.pdb
 *.ipch
-C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\ArxProject1\x64\Debug\
-C:\GitHub\source\VS2015(c++)ac2018\ArxProject1\ArxProject1\Debug\
-C:\GitHub\source\VS2017(c++)ac2020\ArxProject1\ArxProject1\Debug\
-C:\GitHub\source\VS2019(c++)ac2021\ArxProject1\ArxProject1\x64\Debug\
+C:\GitHub\source\VS2012(c++)ac2016\ArxProject1\ArxProject1\x64\Debug\*
+C:\GitHub\source\VS2015(c++)ac2018\ArxProject1\ArxProject1\Debug\*
+C:\GitHub\source\VS2017(c++)ac2020\ArxProject1\ArxProject1\Debug\*
+C:\GitHub\source\VS2019(c++)ac2021\ArxProject1\ArxProject1\x64\Debug\*
